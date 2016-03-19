@@ -1,0 +1,12 @@
+.item-photo{    
+    background-position: center;
+    background-size: cover;
+}
+
+.listing-row{
+    padding: 5px;    
+}
+
+.price {
+    margin-top: 5px; 
+}
