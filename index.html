@@ -28,11 +28,16 @@
           app: {
             format: 'register',
             defaultExtension: 'js'
-          }
+          },
+          moment: {
+            main: 'moment.js',
+            type: 'cjs',
+            defaultExtension: 'js'
+            }
         },
         map: {
-        moment: 'node_modules/moment/moment.js'
-      }
+            moment: 'node_modules/moment'
+        }
       });
       System.import('app/main')
             .then(null, console.error.bind(console));

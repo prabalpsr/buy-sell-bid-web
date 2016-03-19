@@ -4,6 +4,7 @@ import {ListingComponent} from './listing/listing.component';
 import {ItemService} from './services/item.service';
 import {ItemDetailsComponent} from './item-details/item-details'
 
+
 @Component({
   selector: 'my-app',
   templateUrl:'app/app.component.html',
